@@ -12,8 +12,9 @@ body {
 }
 
 .header-content {
-    width: 1080px;
+    width: 1040px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 
 .header-top {
@@ -27,22 +28,72 @@ body {
 .header-top .logo {
     font-size: 20px;
     font-weight: 900;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif
 }
 
 .header-top .links {
     font-size: 15px;
 }
 
-ul {
+.header ul {
     padding: 0;
     display: flex;
     list-style-type: none;
     gap: 25px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.header-body {
+    height: 496px;
+    display: flex;
+}
+
+.header-body .left {
+    width: 520px;
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0;
+}
+
+.header-body .left h1 {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header-body .left h3 {
+    margin: 8px 0px;
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: 100;
+    width: 500px;
+}
+
+.header-body .left button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-weight: 800;
+}
+
+.header-body .right {
+    background-color: grey;
+    width: 520px;
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section1 {
