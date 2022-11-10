@@ -6,16 +6,43 @@ body {
     min-height: 100vh;
 }
 
-.footer, .header {
-    background-color: #142937;
-}
-
 .header {
     height: 560px;
+    background-color: #142937;
 }
 
 .header-content {
     width: 1080px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header-top .logo {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header-top .links {
+    font-size: 15px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .section1 {
@@ -40,6 +67,7 @@ body {
 }
 
 .footer {
+    background-color: #142937;
     height: 100px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
