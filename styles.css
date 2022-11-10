@@ -11,7 +11,7 @@ body {
     background-color: #142937;
 }
 
-.header-content {
+.content {
     width: 1040px;
     margin: 0 auto;
     padding: 0px 20px;
@@ -101,6 +101,47 @@ body {
     background-color: #fff;
     height: 500px;
     flex-grow: 0;
+}
+
+.section1 .title {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 140px;
+}
+
+.section1 .body {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.section1 .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 164px;
+}
+
+.section1 img {
+    height: 160px;
+    width: 160px;
+    border-radius: 20px;
+    border: 4px solid #3b82f6;
+}
+
+.section1 .text {
+    margin-top: 5px;
+    padding: 0px 8px;
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section2 {
